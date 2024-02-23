@@ -19,7 +19,7 @@ SECRET_KEY =  os.environ.get('SECRET_KEY', 'Some-Secret-key')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', 'hosting1django.pythonanywhere.com']
+ALLOWED_HOSTS = ['hosting1django.pythonanywhere.com', 'localhost']
 
 
 # Application definition
